@@ -12,7 +12,7 @@ print(joinMe("hello darling"))
 arraySentences = []
 while True:
     user_input = input ("Say something: ")
-    if user_input == "\end":
+    if user_input == "/end":
         break
     else:
         arraySentences.append(joinMe(user_input))
